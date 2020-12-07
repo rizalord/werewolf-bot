@@ -43,7 +43,11 @@ public class Controller {
             EventsModel eventsModel = objectMapper.readValue(eventsPayload, EventsModel.class);
 
             eventsModel.getEvents().forEach((event)->{
-                // kode reply message disini
+                if(event instanceof MessageEvent){
+                    MessageEvent messageEvent = (MessageEvent) event;
+                    TextMessageContent textMessageContent = (TextMessageContent) messageEvent.getMessage();
+                    replyText(messageEvent.getReplyToken(), textMessageContent.getText());
+                }
             });
 
             return new ResponseEntity<>(HttpStatus.OK);
@@ -51,5 +55,19 @@ public class Controller {
             e.printStackTrace();
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
+    }
+
+    private void reply(ReplyMessage replyMessage){
+        try {
+            lineMessagingClient.replyMessage(replyMessage).get();
+        }catch (InterruptedException | ExecutionException e){
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void replyText(String replyToken , String messageToUser){
+        TextMessage textMessage = new TextMessage(messageToUser);
+        ReplyMessage replyMessage = new ReplyMessage(replyToken, textMessage);
+        reply(replyMessage);
     }
 }
