@@ -1,4 +1,4 @@
-package com.rizalord.werewolf;
+package com.rizalord.werewolf.app;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonInclude;

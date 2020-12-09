@@ -1,4 +1,4 @@
-package com.rizalord.werewolf;
+package com.rizalord.werewolf.app;
 
 import com.linecorp.bot.client.LineMessagingClient;
 import com.linecorp.bot.client.LineSignatureValidator;
