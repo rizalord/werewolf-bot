@@ -14,6 +14,10 @@ public class Config {
     @Autowired
     private Environment mEnv;
 
+    public Config (Environment environment) {
+        this.mEnv = environment;
+    }
+
     @Bean(name="com.linecorp.channel.secret")
     public String getChannelSecret(){
         return mEnv.getProperty("com.linecorp.channel_secret");

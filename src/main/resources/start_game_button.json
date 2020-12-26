@@ -1,0 +1,21 @@
+{
+  "type": "bubble",
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "postback",
+          "label": "MULAI",
+          "data": "start"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}

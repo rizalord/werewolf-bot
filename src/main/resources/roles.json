@@ -1,0 +1,221 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/rizalord/werewolf-bot-assets/main/actor-villager.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Villager",
+            "weight": "bold",
+            "size": "lg",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "Baik",
+            "size": "xs",
+            "color": "#999999"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Villager adalah peran biasa dalam game ini. Mereka hanya dapat melakukan voting saja.",
+                    "wrap": true,
+                    "color": "#777777",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/rizalord/werewolf-bot-assets/main/actor-werewolf.png",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Werewolf",
+            "weight": "bold",
+            "size": "lg",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "Jahat",
+            "size": "xs",
+            "color": "#999999"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Werewolf berperan sebagai villaines / penjahat dalam game ini. Werewolf dapat membunuh satu orang setiap malam. Tujuan utama werewolf adalah membunuh semua orang.",
+                    "wrap": true,
+                    "color": "#777777",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/rizalord/werewolf-bot-assets/main/actor-witch.png",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Penyihir",
+            "weight": "bold",
+            "size": "lg",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "Baik",
+            "size": "xs",
+            "color": "#999999"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Penyihir adalah salah satu peran spesial di dalam game ini. Ia memiliki kemampuan untuk membunuh seseorang dengan racunnya (Max 1x). Role ini hanya akan muncul jika jumlah pemain ada 9 orang atau lebih.",
+                    "wrap": true,
+                    "color": "#777777",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/rizalord/werewolf-bot-assets/main/actor-shielder.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Penjaga",
+            "weight": "bold",
+            "size": "lg",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "Baik",
+            "size": "xs",
+            "color": "#999999"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Penjaga adalah salah satu peran spesial juga di dalam game ini. Ia dapat memberikan perlindungan kepada satu orang tiap hari supaya tidak dibunuh oleh werewolf.",
+                    "wrap": true,
+                    "color": "#777777",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    }
+  ]
+}
